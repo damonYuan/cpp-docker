@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:24.04
 
 RUN apt update \
 	&& apt upgrade -y \
@@ -21,7 +21,8 @@ RUN apt-get update  \
     && apt-get install -y \
     libcpprest-dev \
     libboost-all-dev \
-    libssl-dev
+    libssl-dev \
+    && apt-get clean
 
 # Taken from - https://docs.docker.com/engine/examples/running_ssh_service/#environment-variables
 RUN mkdir /var/run/sshd
