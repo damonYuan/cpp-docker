@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.23.0)
 
 message(PROJECT_SOURCE_DIR="${PROJECT_SOURCE_DIR}")
 message(CMAKE_SOURCE_DIR="${CMAKE_SOURCE_DIR}")
@@ -10,5 +10,5 @@ set(CMAKE_CXX_COMPILER "/usr/bin/g++")
 
 project(HelloWorld)
 
-add_executable(HelloWorld ${CMAKE_SOURCE_DIR}/hello-world.cpp)
+add_executable(HelloWorld hello-world.cpp)
 
