@@ -36,6 +36,8 @@ One simple template to setup c++ development environment in MacOS M1 with docker
 
 4. [The Remote GDB Server configuration](https://www.jetbrains.com/help/clion/remote-gdb-server.html)
 5. [Docker toolchain](https://www.jetbrains.com/help/clion/clion-toolchains-in-docker.html)
+6. [Remote with local sources](https://www.jetbrains.com/help/clion/remote-projects-support.html)
+   - Resync header search paths
 
 ## Useful Commands
 
