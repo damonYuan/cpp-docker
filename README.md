@@ -34,6 +34,8 @@ One simple template to setup c++ development environment in MacOS M1 with docker
    
    [code](https://github.com/Pradumnasaraf/c-plus-plus-docker)
 
+4. [The Remote GDB Server configuration](https://www.jetbrains.com/help/clion/remote-gdb-server.html)
+
 ## Useful Commands
 
 1. `ssh-keygen -f "$HOME/.ssh/known_hosts" -R "[localhost]:2222"`
