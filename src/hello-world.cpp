@@ -9,5 +9,5 @@ int main()
 #elif __APPLE__
     << "Mac"
 #endif
-    << "\n";
+    << std::endl;
 }
