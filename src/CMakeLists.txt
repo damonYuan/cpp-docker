@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.23.0)
+cmake_minimum_required(VERSION 3.22.1)
 
 message(PROJECT_SOURCE_DIR="${PROJECT_SOURCE_DIR}")
 message(CMAKE_SOURCE_DIR="${CMAKE_SOURCE_DIR}")

@@ -2,6 +2,12 @@
 
 int main()
 {
-    std::cout << "hi" << std::endl;
     std::cout << "Hello World!" << std::endl;
+    std::cout << "OS is: "
+#ifdef __linux__
+    << "Linux"
+#elif __APPLE__
+    << "Mac"
+#endif
+    << "\n";
 }
